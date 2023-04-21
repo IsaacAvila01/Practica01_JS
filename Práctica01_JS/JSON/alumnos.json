@@ -1,0 +1,14 @@
+[
+    {
+       "boleta":"2018064025",
+       "nombre":"Juan Manuel Hernández",
+       "semestre":5,
+       "promedio":8
+    },
+    {
+       "boleta":"2019064225",
+       "nombre":"Oscar Miguel Martínez",
+       "semestre":4,
+       "promedio":7.5
+    }
+  ]

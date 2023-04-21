@@ -1,0 +1,97 @@
+
+body{
+  background-color: beige;  
+  font-size: 1.5em;
+  box-sizing:content-box;
+
+}
+
+#json{
+  display: block;
+}
+
+#ajax{
+  display: none;
+}
+
+#fetch{
+  display: none;
+}
+
+#ejemplo{
+  display: none;
+}
+
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+p{
+  text-align: justify;
+}
+
+h3{
+  color:rgb(17, 116, 17)
+}
+
+code{
+  width: 55%;
+  height: auto;
+  display: block;
+  border:2px solid black ;
+  background-color: rgb(238, 232, 232);
+  padding: 1em;
+  
+}
+
+ol li{
+  padding-top: .5em;
+  text-align: justify;
+}
+
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 3em;
+
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+nav a:hover{
+  color:brown;
+}
+
+
+.container article{
+  margin-top: 20px;
+}
+
+table{
+  display: none;   
+}
+
+table th{
+  color:brown;
+}
+
+table td{
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;  
+}
+
+p span{
+  color: blue;
+}

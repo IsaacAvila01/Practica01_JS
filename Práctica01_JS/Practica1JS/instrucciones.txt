@@ -1,0 +1,10 @@
+Práctica 1 de Javascript
+
+Desarrollar una aplicación que permita seleccionar de una colección de  
+cursos, los cursos que se desean cursar y determine el monto a pagar.
+
+1. La práctica se desarrollará por equipos
+2. Mostrar los cursos disponibles.
+3.
+
+ 
