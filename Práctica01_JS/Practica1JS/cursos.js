@@ -2,7 +2,7 @@
  * Listado de cursos ofertados
  */
 
-let cursos = [
+/*let cursos = [
     {
      nombre: "HTML",
      clave: "C1",
@@ -27,4 +27,5 @@ let cursos = [
       duracion: "10 hrs",
       precio: 800
      }         
-] 
+] */
+
