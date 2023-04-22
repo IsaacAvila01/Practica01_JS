@@ -12,3 +12,6 @@ cursos, los cursos que se desean cursar y determine el monto a pagar.
  Hola 2
 
  intento 6
+
+ intento 8
+ 
