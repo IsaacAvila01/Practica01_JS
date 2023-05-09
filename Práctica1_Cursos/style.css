@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
+/*Reseteanado el sistema */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: 'Noticia Text', serif;
+}
+
+/*Trabajando con menu principal*/
+
+.nav-container{
+    position: sticky;
+    z-index:3;
+    top:0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    background-color: rgb(230, 217, 209) ;
+}
+
+.navbar-logo {
+    margin-left: 20px;
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+
+.carrito{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    transition: transform 0.2s;
+    cursor:pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #BF9270;
+    padding: 0.5em;
+}
+
+.carrito:hover{
+ transform: scale(1.2); 
+}
+
+
+/*banner*/
+
+.banner{
+    background-image: url(img/1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 290px 0;
+}
+
+.banner-container h1{
+    text-align:left;
+    font-size: 100px;
+    color: white;  
+    margin-left: 50px;
+}
+
+.banner-container h3{
+    text-align:left;
+    font-size: 25px;
+    color: white; 
+    margin-left: 200px ;
+    font-weight: 100;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 30px;
+    color: #E3B7A0;
+    margin-top: 70px;
+}
+
+/* mostrando productos */
+
+.tienda-content{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+    max-width: 500px;
+    margin: auto;
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    padding: 3em;
+    border-radius: 70px;
+    border: 3px ridge #EDCDBB;
+    font-size: 18px;
+}
+.card h3{
+    font-size:20px;
+    margin-bottom: 10px;
+    background-color: #EDCDBB;
+
+}
+.card button{
+    border: none;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: white ;
+    margin-top:20px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform:initial;
+    color: #BF9270;
+    border-bottom: 1px solid #BF9270;
+}
+
+.card button:hover{
+    opacity:0.3;
+}
+
+.card img{
+    
+    height: 90px;
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+}
+
+.card img:hover{
+ transform: scale(1.3); 
+}
+
+/*agregando carrito*/
+.modal-container{
+    width:80%;
+    margin:0 10%;
+    max-height:88vh;
+    color: black;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+    border: 1px solid black;
+}
+
+.modal-container::-webkit-scrollbar{
+    display: none;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.modal-header h1{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+.modal-container > div > img{
+    height: 35px;
+    width: 45px; 
+}
+
+.modal-header-button{
+    cursor: pointer;
+    font-weight: 100;
+}
+
+
+
+.modal-container > .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px
+}
+
+/*Pagando*/
+.total-content{
+
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: #EDCDBB;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    padding: 10px 0;
+    background-color: #EDCDBB;
+    color: black;
+}
+
+.footer-content{
+    display: flex; /*se acomoda el texto de forma vertical */
+    justify-content: space-between; /*espacio entre el contenido */
+    padding: 18px;
+    font-size: 12px;
+}
+
+/*dieñando boton de eliminar*/
+
+
+.delete-curso{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: white ;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform:initial;
+    color: #BF9270;
+    border-radius: 50px;
+    border: 1px solid #BF9270;
+}
+
+.delete-curso:hover{
+    opacity:0.3;
+}
